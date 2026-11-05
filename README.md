@@ -2,7 +2,7 @@
 
 A **tool-use RL environment** over a frozen [openFDA](https://open.fda.gov/) snapshot. An agent answers a regulatory question by calling tools, then `submit_answer`. The grader scores the answer **and** the trace, so a memorized fact with a fake citation does not pay.
 
-This repository is the **recruiter / public demo**. The published sheet is 93 questions, `FG-9101`–`FG-9193`, in [`data/tasks/public.jsonl`](data/tasks/public.jsonl). Freeze version: `2026-10-15` (`drug/label`, `drug/event`, `drug/drugsfda`). Gzip bodies are not in this clone; pytest uses JSON fixtures unless you supply a freeze.
+This repository is the **recruiter / public demo**. The published sheet is 93 questions, `FG-9101`–`FG-9193`, in [`data/tasks/public/`](data/tasks/public/). Freeze version: `2026-10-15` (`drug/label`, `drug/event`, `drug/drugsfda`). Gzip bodies are not in this clone; pytest uses JSON fixtures unless you supply a freeze.
 
 It is not a hidden exam. Use **this** repo as the public link. Do not treat any other GitHub copy of FDA-Gym as a private holdout.
 
@@ -82,15 +82,14 @@ The model does not send a raw search string. Each call takes a drug name, a sect
 cd web && npm ci && npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The overview reads the jsonl files in `web/public/results/`.
- The shipped fixture uses fictional drugs.
+Open [http://localhost:3000](http://localhost:3000). The overview reads the jsonl files in `web/public/results/`. The shipped fixture uses fictional drugs.
 
 ## What this repo contains
 
 | Path | Role |
 | --- | --- |
 | `fdagym/` | Env, tools, grader, snapshot reader, packaged JSON schemas |
-| `data/tasks/public.jsonl` | Published eval (93 tasks) |
+| `data/tasks/public/` | Published eval (93 tasks, one file each) |
 | `data/snapshots/` | Exam-universe name lists; gzip freeze is optional and not shipped |
 | `web/` | Optional B1 trajectory viewer |
 | `tests/` | Offline pytest (env, grader, public-sheet attacks when a freeze is present) |

@@ -34,7 +34,19 @@ _TRAJECTORY_VALIDATOR = Draft202012Validator(_TRAJECTORY_SCHEMA, registry=_REGIS
 
 def load_split(split: str) -> list[dict]:
     path = TASKS_DIR / f"{split}.jsonl"
-    return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+    if path.is_file():
+        sources = [path]
+    else:
+        directory = TASKS_DIR / split
+        sources = sorted(directory.glob("*.jsonl")) if directory.is_dir() else []
+    if not sources:
+        raise FileNotFoundError(path)
+    tasks = []
+    for source in sources:
+        for line in source.read_text().splitlines():
+            if line.strip():
+                tasks.append(json.loads(line))
+    return tasks
 
 
 def jsonl_path(results_dir: Path, run_id: str) -> Path:

@@ -15,7 +15,6 @@ pytestmark = pytest.mark.needs_freeze
 
 ROOT = Path(__file__).resolve().parents[2]
 SNAPSHOT = ROOT / "data" / "snapshots" / "2026-10-15"
-PUBLIC = ROOT / "data" / "tasks" / "public.jsonl"
 
 
 def gold_answer(task: dict):
@@ -125,8 +124,6 @@ def _submit(env: FDAEnv, answer, citations: list[dict]) -> dict:
 def public_bundle():
     if not (SNAPSHOT / "manifest.jsonl").exists():
         pytest.skip("optional 2026-10-15 freeze not bundled in the public demo")
-    if not PUBLIC.exists():
-        pytest.fail("data/tasks/public.jsonl is required")
     tasks = load_split("public")
     env = FDAEnv(DiskSnapshot("2026-10-15"), tasks, run_id="public-attacks", tool_budget=8)
     return env, tasks

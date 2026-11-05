@@ -1,6 +1,6 @@
 # Snapshots
 
-This public demo does **not** ship gzip openFDA bodies. Clone size stays small, and the published sheet is still in [`data/tasks/public.jsonl`](../tasks/public.jsonl).
+This public demo does **not** ship gzip openFDA bodies. Clone size stays small, and the published sheet is still in [`data/tasks/public/`](../tasks/public/).
 
 `drugs.txt` and `pilot.txt` list the 150-name `2026-10-15` exam universe (public freeze, not a private holdout).
 

@@ -7,18 +7,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 _SCORE_SCRIPT = r"""
-import json
 import sys
-from pathlib import Path
 
+from fdagym.agents.baseline import load_split
 from fdagym.rewards import score
 
 rows = []
 seen = set()
-for line in Path("data/tasks/public.jsonl").read_text().splitlines():
-    if not line.strip():
-        continue
-    task = json.loads(line)
+for task in load_split("public"):
     kind = task.get("type")
     if kind in {"compare", "sponsor_hop"} and kind not in seen:
         rows.append(task)

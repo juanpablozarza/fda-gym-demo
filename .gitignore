@@ -13,3 +13,5 @@ dist/
 data/snapshots/*/responses/
 data/snapshots/*/manifest.jsonl
 docs/design/*.png
+uv.lock
+web/package-lock.json

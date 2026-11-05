@@ -1,11 +1,11 @@
 import json
 
 from fdagym import queries
-from tests.env.support import FIXTURE, WARFARIN_SET, drive, submit
+from tests.env.support import FIXTURE, WARFARIN_SET, _load_fixture_rows, drive, submit
 
 
 def test_recorded_keys_match_the_query_contract():
-    raw = json.loads(FIXTURE.read_text())
+    raw = _load_fixture_rows(FIXTURE)
     label_key = json.dumps(list(queries.label_search("warfarin")))
     approval_key = json.dumps(list(queries.approvals_search("semaglutide")))
     assert label_key in raw

@@ -7,16 +7,24 @@ from fdagym.env import FDAEnv
 from fdagym.schemas import load as load_schema
 from fdagym.snapshot import SnapshotMiss
 
-FIXTURE = Path(__file__).parent / "fixtures" / "openfda.json"
+FIXTURE = Path(__file__).parent / "fixtures" / "openfda"
 WARFARIN_SET = "0cbce382-9c88-4f58-ae0f-532a841e8f95"
 EXAMPLE_TASK = load_schema("examples/task.example.json")
 
 
+def _load_fixture_rows(path: Path) -> dict:
+    if path.is_dir():
+        raw = {}
+        for part in sorted(path.glob("*.json")):
+            raw.update(json.loads(part.read_text()))
+        return raw
+    return json.loads(path.read_text())
+
+
 class JsonSnapshot:
     def __init__(self, path: Path = FIXTURE):
-        raw = json.loads(path.read_text())
         self._rows = {}
-        for key, body in raw.items():
+        for key, body in _load_fixture_rows(path).items():
             endpoint, search, count, limit = json.loads(key)
             self._rows[(endpoint, search, count, limit)] = body
         self.version = "2026-10-15"
