@@ -49,8 +49,8 @@ def norm_punct(value: object) -> str:
 
 def years_in(value: object) -> set[int]:
     """Years that are the YYYY of a real-looking date, not bare four-digit numbers."""
-    found: set[int] = set()
     text = str(value)
+    found: set[int] = set()
     for pattern in (_COMPACT_DATE, _SPLIT_DATE):
         for match in pattern.finditer(text):
             year, month, day = (int(match.group(i)) for i in (1, 2, 3))
@@ -159,7 +159,7 @@ def dense_correctness(
 
 
 def _split_composite(value: object) -> tuple[float, str] | None:
-    """``\"8714; yes\"`` -> ``(8714.0, \"yes\")``. None when it is not that shape."""
+    """``"8714; yes"`` -> ``(8714.0, "yes")``. None when it is not that shape."""
     if not isinstance(value, str) or value.count(";") != 1:
         return None
     left, right = (part.strip() for part in value.split(";"))
