@@ -1,0 +1,483 @@
+{
+ "[\"drug/drugsfda\", \"products.active_ingredients.name:\\\"semaglutide\\\"\", null, 1000]": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-10-14",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 6
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "29",
+      "submission_status": "AP",
+      "submission_status_date": "20251017",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20200116",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "23",
+      "submission_status": "AP",
+      "submission_status_date": "20241101",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "21",
+      "submission_status": "AP",
+      "submission_status_date": "20241209",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "11",
+      "submission_status": "AP",
+      "submission_status_date": "20220610",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "6",
+      "submission_status": "AP",
+      "submission_status_date": "20210430",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "28",
+      "submission_status": "AP",
+      "submission_status_date": "20251017",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "18",
+      "submission_status": "AP",
+      "submission_status_date": "20240124",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20190920",
+      "submission_class_code_description": "Type 3 - New Dosage Form"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "24",
+      "submission_status": "AP",
+      "submission_status_date": "20251017",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "30",
+      "submission_status": "AP",
+      "submission_status_date": "20260130",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "20",
+      "submission_status": "AP",
+      "submission_status_date": "20241209",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "12",
+      "submission_status": "AP",
+      "submission_status_date": "20230112",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "NDA213051",
+    "sponsor_name": "NOVO",
+    "openfda": {
+     "brand_name": [
+      "OZEMPIC",
+      "RYBELSUS"
+     ],
+     "generic_name": [
+      "ORAL SEMAGLUTIDE"
+     ]
+    },
+    "brand_names": [
+     "OZEMPIC",
+     "OZEMPIC",
+     "RYBELSUS",
+     "OZEMPIC",
+     "RYBELSUS",
+     "RYBELSUS"
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "21",
+      "submission_status": "AP",
+      "submission_status_date": "20230922",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20171205",
+      "submission_class_code_description": "Type 1 - New Molecular Entity"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20200116",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20190409",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "38",
+      "submission_status": "AP",
+      "submission_status_date": "20260601",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "44",
+      "submission_status": "AP",
+      "submission_status_date": "20260827",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "32",
+      "submission_status": "AP",
+      "submission_status_date": "20241101",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "8",
+      "submission_status": "AP",
+      "submission_status_date": "20210412",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "20",
+      "submission_status": "AP",
+      "submission_status_date": "20230922",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "12",
+      "submission_status": "AP",
+      "submission_status_date": "20221006",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "20191127",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "39",
+      "submission_status": "AP",
+      "submission_status_date": "20260505",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "37",
+      "submission_status": "AP",
+      "submission_status_date": "20251014",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "35",
+      "submission_status": "AP",
+      "submission_status_date": "20251014",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "25",
+      "submission_status": "AP",
+      "submission_status_date": "20250128",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "9",
+      "submission_status": "AP",
+      "submission_status_date": "20220328",
+      "submission_class_code_description": "Efficacy"
+     }
+    ],
+    "application_number": "NDA209637",
+    "sponsor_name": "NOVO",
+    "openfda": {},
+    "brand_names": [
+     "OZEMPIC",
+     "OZEMPIC",
+     "OZEMPIC",
+     "OZEMPIC",
+     "OZEMPIC",
+     "OZEMPIC",
+     "OZEMPIC"
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20200116",
+      "submission_class_code_description": "Type 9 - New Indication Submitted as Distinct NDA, Consolidated with Original NDA after Approval"
+     }
+    ],
+    "application_number": "NDA213182",
+    "sponsor_name": "NOVO NORDISK INC",
+    "brand_names": [
+     "RYBELSUS",
+     "RYBELSUS"
+    ],
+    "openfda": {}
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "TA",
+      "submission_status_date": "20260407"
+     }
+    ],
+    "application_number": "ANDA220314",
+    "sponsor_name": "APOTEX INC",
+    "brand_names": [
+     "SEMAGLUTIDE",
+     "SEMAGLUTIDE",
+     "SEMAGLUTIDE"
+    ],
+    "openfda": {}
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "11",
+      "submission_status": "AP",
+      "submission_status_date": "20240308",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "6",
+      "submission_status": "AP",
+      "submission_status_date": "20230214",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "26",
+      "submission_status": "AP",
+      "submission_status_date": "20251014",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20210604",
+      "submission_class_code_description": "Type 10 - New Indication Submitted as Distinct NDA - Not Consolidated"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "24",
+      "submission_status": "AP",
+      "submission_status_date": "20250815",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "30",
+      "submission_status": "AP",
+      "submission_status_date": "20260129",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "7",
+      "submission_status": "AP",
+      "submission_status_date": "20230721",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20221223",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "29",
+      "submission_status": "AP",
+      "submission_status_date": "20260319",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20220824",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "33",
+      "submission_status": "AP",
+      "submission_status_date": "20260225",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "25",
+      "submission_status": "AP",
+      "submission_status_date": "20260618",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "31",
+      "submission_status": "AP",
+      "submission_status_date": "20260505",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "23",
+      "submission_status": "AP",
+      "submission_status_date": "20251121",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "15",
+      "submission_status": "AP",
+      "submission_status_date": "20241127",
+      "submission_class_code_description": "Efficacy"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "21",
+      "submission_status": "AP",
+      "submission_status_date": "20241101",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "NDA215256",
+    "sponsor_name": "NOVO",
+    "openfda": {},
+    "brand_names": [
+     "WEGOVY",
+     "WEGOVY",
+     "WEGOVY",
+     "WEGOVY",
+     "WEGOVY",
+     "WEGOVY",
+     "WEGOVY",
+     "WEGOVY HD",
+     "WEGOVY FLEXTOUCH",
+     "WEGOVY",
+     "WEGOVY",
+     "WEGOVY"
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "20260225",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "20260129",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20251222",
+      "submission_class_code_description": "Type 3 - New Dosage Form"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "7",
+      "submission_status": "AP",
+      "submission_status_date": "20260618",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20260319",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20260505",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "NDA218316",
+    "sponsor_name": "NOVO",
+    "brand_names": [
+     "WEGOVY",
+     "WEGOVY",
+     "WEGOVY",
+     "WEGOVY"
+    ],
+    "openfda": {}
+   }
+  ]
+ }
+}

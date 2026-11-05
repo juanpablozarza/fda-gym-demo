@@ -1,0 +1,12 @@
+{
+ "[\"drug/event\", \"(patient.drug.openfda.generic_name:\\\"lecanemab\\\" OR patient.drug.activesubstance.activesubstancename:\\\"lecanemab\\\") AND receivedate:[20200101 TO 20201231]\", null, 1]": {
+  "meta": {
+   "results": {
+    "skip": 0,
+    "limit": 1,
+    "total": 0
+   }
+  },
+  "results": []
+ }
+}

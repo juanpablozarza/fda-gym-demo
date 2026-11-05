@@ -1,0 +1,52 @@
+{
+ "[\"drug/event\", \"(patient.drug.openfda.generic_name:\\\"warfarin\\\" OR patient.drug.activesubstance.activesubstancename:\\\"warfarin\\\")\", \"patient.reaction.reactionmeddrapt.exact\", 10]": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-07-30"
+  },
+  "results": [
+   {
+    "term": "INTERNATIONAL NORMALISED RATIO INCREASED",
+    "count": 13307
+   },
+   {
+    "term": "DYSPNOEA",
+    "count": 12449
+   },
+   {
+    "term": "FATIGUE",
+    "count": 8855
+   },
+   {
+    "term": "DIARRHOEA",
+    "count": 8590
+   },
+   {
+    "term": "NAUSEA",
+    "count": 8437
+   },
+   {
+    "term": "DRUG INTERACTION",
+    "count": 8195
+   },
+   {
+    "term": "DIZZINESS",
+    "count": 7205
+   },
+   {
+    "term": "HEADACHE",
+    "count": 7161
+   },
+   {
+    "term": "FALL",
+    "count": 7090
+   },
+   {
+    "term": "DRUG INEFFECTIVE",
+    "count": 6894
+   }
+  ]
+ }
+}

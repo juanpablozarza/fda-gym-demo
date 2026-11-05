@@ -1,0 +1,52 @@
+{
+ "[\"drug/event\", \"(patient.drug.openfda.generic_name:\\\"metformin\\\" OR patient.drug.activesubstance.activesubstancename:\\\"metformin\\\") AND serious:1 AND receivedate:[20250101 TO 20251231]\", \"patient.reaction.reactionmeddrapt.exact\", 10]": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-07-30"
+  },
+  "results": [
+   {
+    "term": "NAUSEA",
+    "count": 1775
+   },
+   {
+    "term": "DIARRHOEA",
+    "count": 1743
+   },
+   {
+    "term": "VOMITING",
+    "count": 1602
+   },
+   {
+    "term": "LACTIC ACIDOSIS",
+    "count": 1565
+   },
+   {
+    "term": "OFF LABEL USE",
+    "count": 1541
+   },
+   {
+    "term": "ACUTE KIDNEY INJURY",
+    "count": 1466
+   },
+   {
+    "term": "FATIGUE",
+    "count": 1030
+   },
+   {
+    "term": "IMPAIRED GASTRIC EMPTYING",
+    "count": 971
+   },
+   {
+    "term": "CONSTIPATION",
+    "count": 886
+   },
+   {
+    "term": "DRUG INEFFECTIVE",
+    "count": 860
+   }
+  ]
+ }
+}
