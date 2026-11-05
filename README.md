@@ -79,7 +79,7 @@ The model does not send a raw search string. Each call takes a drug name, a sect
 ## Dashboard
 
 ```bash
-cd web && npm ci && npm run dev
+cd web && npm install && npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000). The overview reads the jsonl files in `web/public/results/`. The shipped fixture uses fictional drugs.
